@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1476719F288C32F700A4FCAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1476719E288C32F700A4FCAF /* main.m */; };
 		147671A7288C332200A4FCAF /* SchoolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 147671A6288C332200A4FCAF /* SchoolClass.m */; };
+		8F66F4FD28B316FE00E39E36 /* Tree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F4FC28B316FE00E39E36 /* Tree.mm */; };
+		8F66F4FF28B317F400E39E36 /* Sort.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F66F4FE28B317F400E39E36 /* Sort.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 		1476719E288C32F700A4FCAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		147671A5288C332200A4FCAF /* SchoolClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolClass.h; sourceTree = "<group>"; };
 		147671A6288C332200A4FCAF /* SchoolClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolClass.m; sourceTree = "<group>"; };
+		8F66F4FA28B3157000E39E36 /* C++.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C++.h"; sourceTree = "<group>"; };
+		8F66F4FC28B316FE00E39E36 /* Tree.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Tree.mm; sourceTree = "<group>"; };
+		8F66F4FE28B317F400E39E36 /* Sort.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Sort.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				1476719E288C32F700A4FCAF /* main.m */,
 				147671A5288C332200A4FCAF /* SchoolClass.h */,
 				147671A6288C332200A4FCAF /* SchoolClass.m */,
+				8F66F4FA28B3157000E39E36 /* C++.h */,
+				8F66F4FC28B316FE00E39E36 /* Tree.mm */,
+				8F66F4FE28B317F400E39E36 /* Sort.mm */,
 			);
 			path = ByteDanceCampusDemo;
 			sourceTree = "<group>";
@@ -124,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F66F4FD28B316FE00E39E36 /* Tree.mm in Sources */,
+				8F66F4FF28B317F400E39E36 /* Sort.mm in Sources */,
 				147671A7288C332200A4FCAF /* SchoolClass.m in Sources */,
 				1476719F288C32F700A4FCAF /* main.m in Sources */,
 			);
