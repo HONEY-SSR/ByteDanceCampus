@@ -13,7 +13,7 @@ using namespace std;
 const int maxn=1e6+10;
 int n;
 int a[maxn];
-int b[manx];
+int b[maxn];
 
 //选择排序：每次选出数组中的最小值并存储，直到数组中不存在元素
 void sw(int a[],int n){
